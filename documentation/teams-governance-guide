@@ -1,0 +1,123 @@
+# Project 4: Teams Basic Channel Governance
+
+## Objective
+
+Create a Microsoft Team with standard and private channels, configure guest access, and apply governance policies to prevent Teams sprawl.
+
+---
+
+## Part A: Create a Team
+
+### Step 1: Navigate to Teams Admin Center
+
+**Path:** `Microsoft Teams Admin Center → Teams → Manage Teams`
+
+### Step 2: Create a New Team
+
+| Field | Value |
+|-------|-------|
+| Name | Governance Team |
+| Description | Team for governance-related collaboration |
+| Team owners | Jane Doe, Francis Jobs |
+| Privacy | Private |
+
+Click **Add**.
+
+---
+
+## Part B: Add a Private Channel
+
+### Step 1: Navigate to the Team
+
+**Path:** `Teams Admin Center → Teams → Manage Teams → Governance Team`
+
+### Step 2: Add a Private Channel
+
+| Field | Value |
+|-------|-------|
+| Name | Leadership Sub-Group |
+| Description | Private channel for leadership discussions |
+| Type | Private |
+| Channel owner | Francis Jobs |
+
+Click **Apply**.
+
+---
+
+## Part C: Configure Guest Access
+
+### Step 1: Navigate to Guest Access
+
+**Path:** `Teams Admin Center → External collaboration → Guest access`
+
+### Step 2: Verify Settings
+
+| Setting | Value |
+|---------|-------|
+| Guest access | On |
+| Make private calls | On |
+| Video conferencing | On |
+| Screen sharing | Entire screen |
+
+Click **Save**.
+
+---
+
+## Part D: Configure Teams Creation Policy
+
+### Step 1: Navigate to Teams Policies
+
+**Path:** `Teams Admin Center → Teams → Teams policies`
+
+### Step 2: Create a Policy
+
+| Setting | Value |
+|---------|-------|
+| Name | Restricted Team Creation |
+| Allow team creation | Off (or restrict to groups) |
+| Allow channel creation | On |
+
+### Step 3: Assign the Policy
+
+Assign to users/groups via **Manage users**.
+
+---
+
+## 📸 Screenshot Evidence
+
+![Team Creation](screenshots/25-team-creation.png)
+
+![Private Channel](screenshots/26-private-channel.png)
+
+![Guest Access](screenshots/27-guest-access.png)
+
+---
+
+## ✅ Result
+
+- Governance Team created (Private)
+- Standard and private channels configured
+- Guest access verified
+- Teams creation policy applied
+- Team owners assigned
+
+---
+
+## 💡 Key Takeaways
+
+- **Teams** are top-level containers; **Channels** organize conversations
+- **Private channels** restrict access to specific members
+- **Guest access** must be enabled at org level before guests can join
+- **Team creation policies** prevent Teams sprawl
+- **Multiple owners** ensure continuity if one leaves
+
+---
+
+## 🔗 Team vs Channel Structure
+
+| Concept | Description |
+|---------|-------------|
+| Team | Top-level container |
+| Standard Channel | Accessible to all members |
+| Private Channel | Restricted to specific members |
+| Shared Channel | Accessible to external users |
